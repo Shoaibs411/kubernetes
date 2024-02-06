@@ -1,0 +1,3 @@
+eks:
+  source: "https://https://github.com/Shoaibs411/tf-module-eks"
+  version: "main"
