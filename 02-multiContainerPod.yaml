@@ -10,3 +10,5 @@ spec:
   - name: centos-container
     image: centos:7
     command: ["sleep" , "2000"]
+  - name: mysql-container
+    image: mysql
