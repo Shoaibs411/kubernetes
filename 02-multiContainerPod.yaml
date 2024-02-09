@@ -9,5 +9,3 @@ spec:
     image: nginx:1.14.2
   - name: centos-container
     image: centos:7
-  - name: mysql-container
-    image: mysql
