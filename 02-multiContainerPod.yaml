@@ -1,0 +1,13 @@
+# Multi Container Pod
+apiVersion: v1
+kind: Pod
+metadata:
+    name: Multi-Container-Pod
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:1.14.2
+  - name: centos-container
+    image: centos:7
+  - name: mysql-container
+    image: mysql
