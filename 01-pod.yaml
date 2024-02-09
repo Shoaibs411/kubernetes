@@ -13,3 +13,18 @@ spec:
     image: nginx:1.14.2
     ports:
     - containerPort: 80 
+  - name: mysql
+    image: mysql
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+    name: httpd-pod
+spec:
+  containers:
+  - name: httpd
+    image: httpd
+    ports:
+    - containerPort: 80 
